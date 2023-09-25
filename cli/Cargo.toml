@@ -16,6 +16,9 @@ name = "deno"
 path = "main.rs"
 doc = false
 
+[lib]
+path = "lib.rs"
+
 [[bench]]
 name = "deno_bench"
 harness = false
